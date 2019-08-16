@@ -1,0 +1,15 @@
+package rules
+ 
+import com.phlab.model.Event
+rule "Suggested Calls"
+	when 
+		event: Event(pme>=mta)
+	then
+		event.setEventStatus("Suggested");
+	end
+rule "Ignore Calls"
+	when 
+		event: Event(pme<mta)
+	then
+		event.setEventStatus("Ignore");
+	end
