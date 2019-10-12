@@ -8,7 +8,7 @@
 	<groupId>com.phlab</groupId>
 	<artifactId>MarginEngine</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 
 	<name>margin-engine</name>
 	<description>Drools for margin engine</description>
