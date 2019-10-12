@@ -10,7 +10,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.phlab.SpringBootDrools;
 import com.phlab.model.Event;
 import com.phlab.service.EventService;
 
@@ -21,7 +20,7 @@ import com.phlab.service.EventService;
 @RestController
 public class EventController {
 
-	private static final Logger LOGGER = LogManager.getLogger(SpringBootDrools.class);
+	private static final Logger LOGGER = LogManager.getLogger(EventController.class);
 	private final EventService eventService;
 
 	/**
