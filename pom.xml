@@ -18,7 +18,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<kie.version>7.17.0.Final</kie.version>
-		<log4j.version>1.2.17</log4j.version>
+		<!-- <log4j.version>1.2.17</log4j.version> -->
 		<docker-maven-plugin.version>1.0.0</docker-maven-plugin.version>
 		<docker.image.prefix>margin-engine</docker.image.prefix>
 	</properties>
@@ -61,11 +61,11 @@
 			<version>${kie.version}</version>
 		</dependency>
 
-		<dependency>
+		<!-- <dependency>
 			<groupId>log4j</groupId>
 			<artifactId>log4j</artifactId>
 			<version>${log4j.version}</version>
-		</dependency>
+		</dependency> -->
 
 	</dependencies>
 
